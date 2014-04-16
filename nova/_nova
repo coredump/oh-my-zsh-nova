@@ -172,7 +172,7 @@ case "$words[1]" in
     ;;
   boot)
     _command_args=(
-      '(--falvor)'--falvor"[Flavor ID (see nova flavor-list).]" \
+      '(--flavor)'--falvor"[Flavor ID (see nova flavor-list).]" \
       '(--image)'--image"[Image ID (see nova image-list).]" \
       '(--num-instances)'--num-instances'[boot multi instances at a time]' \
       '(--meta)'--meta'[Record arbitrary key/value metadata to /meta.js on the new server. Can be specified multiple times.]' \
